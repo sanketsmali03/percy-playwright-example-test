@@ -1,0 +1,17 @@
+version: 2
+snapshot:
+  enable-javascript: true
+  widths:
+    - 720
+    - 1440
+    - 1280
+    - 1920
+  percyCSS: ""
+discovery:
+  allowedHostnames: []
+  disallowedHostnames: []
+  networkIdleTimeout: 100
+upload:
+  files: "**/*.{png,jpg,jpeg}"
+  ignore: ""
+  stripExtensions: false
